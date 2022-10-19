@@ -50,4 +50,4 @@ my_layout = {
  'yaxis': {'title': 'Stars'},
 }
 fig = {'data': data, 'layout': my_layout}
-offline.plot(fig, filename='html_files/java_repos.html')
+offline.plot(fig, filename='java_repos.html')

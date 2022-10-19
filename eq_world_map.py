@@ -38,4 +38,4 @@ data = [{
 }]
 layout = Layout(title='Global Earthquakes')
 fig = {'data':data, 'layout':layout}
-offline.plot(fig,filename='html_files/global_earthquakes.html')
+offline.plot(fig,filename='global_earthquakes.html')

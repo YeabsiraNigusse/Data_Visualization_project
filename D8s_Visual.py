@@ -18,4 +18,4 @@ data = [Bar(x=x_values,y= freq)]
 x_axis_config = {'title': 'Result','dtick':'1'}
 y_axis_config = {'title': 'Frequency of Result'}
 my_layout = Layout(title='Results of rolling two D6 50000 times', xaxis=x_axis_config, yaxis=y_axis_config)
-offline.plot({'data': data, 'layout': my_layout}, filename='html_files/d8.html')
+offline.plot({'data': data, 'layout': my_layout}, filename='d8.html')
